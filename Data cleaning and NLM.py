@@ -11,6 +11,9 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
+# Originally intended to use Tweepy for Twitter scraping.
+# API credentials not available, so loading data from local CSV instead.
+
 # Twitter API credentials - Replace with your own
 # consumer_key = "YOUR_CONSUMER_KEY"
 # consumer_secret = "YOUR_CONSUMER_SECRET"
